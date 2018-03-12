@@ -1,0 +1,38 @@
+.title{
+  margin-left: 30rpx;
+  font-size: 36rpx;
+}
+.hot{
+  padding: 0 30rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+.hot .list{
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.hot .list .list_one text{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size:28rpx;
+  margin-top: 10rpx;
+}
+.hot .list .list_one{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+   width: 200rpx; 
+}
+.hot .list .list_one image{
+  height: 300rpx;
+  width: 100%;
+}

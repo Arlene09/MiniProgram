@@ -1,0 +1,12 @@
+
+<view>
+  <view class='title'>{{moiveList.title}}</view>
+  <scroll-view scroll-x class='hot'>
+    <view class='list' wx:for="{{moiveList.subjects}}" wx:key="id">
+      <view class='list_one'>
+        <image mode='center' src='{{item.images.small}}'></image>
+      <text>{{item.title}}</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
